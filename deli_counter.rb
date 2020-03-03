@@ -5,4 +5,6 @@ def line(deli)
       current << " #{i + 1}. #{name}"
     end
     current
+  else
+    'The line is currently empty.'
 end
