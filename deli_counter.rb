@@ -7,4 +7,5 @@ def line(deli)
     current
   else
     'The line is currently empty.'
+  end
 end
