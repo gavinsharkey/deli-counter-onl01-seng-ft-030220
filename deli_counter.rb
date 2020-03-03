@@ -4,8 +4,8 @@ def line(deli)
     deli.each.with_index do |name, i|
       current << " #{i + 1}. #{name}"
     end
-    current
+    puts current
   else
-    'The line is currently empty.'
+    puts 'The line is currently empty.'
   end
 end
